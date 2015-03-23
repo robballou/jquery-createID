@@ -1,0 +1,25 @@
+{
+  "name": "jquery-createID",
+  "version": "1.0.0",
+  "description": "Create unique IDs for elements that do not have an ID attribute",
+  "main": "jquery.createID.js",
+  "scripts": {
+    "min": "node_modules/.bin/uglifyjs jquery.createID.js --preamble '/* jquery-createID */' -c -m -o jquery.createID.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robballou/jquery-createID.git"
+  },
+  "keywords": [
+    "jquery"
+  ],
+  "author": "Rob Ballou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robballou/jquery-createID/issues"
+  },
+  "homepage": "https://github.com/robballou/jquery-createID",
+  "devDependencies": {
+    "uglify-js": "^2.4.17"
+  }
+}
